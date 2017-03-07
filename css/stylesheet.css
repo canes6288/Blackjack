@@ -1,0 +1,81 @@
+.nav-bar li{
+	display: inline;
+	padding: 40px;
+
+
+}
+
+.nav-bar ul{
+	margin: 0;
+	border: 3px solid black;
+
+}
+
+
+#nav-bar a {
+	
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+
+}
+
+
+
+header {
+	background-image: url("../images/bannercloth.jpg");
+/*	background-color: #800000;
+*/	border: 2px solid black;
+	/*padding: 0;
+	margin: 0 auto;*/
+}
+
+body{
+	text-align: center;
+	background-image: url("../images/body-image.jpg");
+}
+
+h3 {
+	text-decoration: underline;
+	color: white;
+}
+
+#nav-bar {
+/*	background-color: #800000;	
+*/	background-image: url("../images/tablecloth.jpg");
+
+	
+}
+
+.main-banner img{
+	width: 500px;
+	padding-top: 10px;
+	/*position: 0 0 5 0;*/
+
+}
+
+#blackjack-cards {	
+	border: 2px solid black;
+	float: left;
+	width: 400px;
+	/*padding-left: 70px*/;
+	margin: 40px;
+
+}
+
+p {
+	color: white;
+}
+
+
+
+
+footer {
+	clear: both;
+}
+
+footer img {
+	width: 65px;
+	padding: 30px;	
+}
