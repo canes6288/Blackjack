@@ -21,6 +21,26 @@
 
 }
 
+.leftSide {
+	float: left;
+}
+
+.game-board {
+	height: 650px;
+	width: 650px;
+	background-image: url("../images/tablecloth.jpg");
+	border: 2px solid black;
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-start;	
+	margin-top: 10px;
+	/*display: inline-block;	*/
+}
+
+
+.rules {
+	background-color: rgba(211, 211, 211, .5);
+}
 
 
 header {
@@ -33,17 +53,19 @@ header {
 
 body{
 	text-align: center;
-	background-image: url("../images/body-image.jpg");
+	/*background-image: url("../images/body-image.jpg");*/
 }
 
 h3 {
 	text-decoration: underline;
-	color: white;
+	/*color: white;*/
 }
 
 #nav-bar {
-/*	background-color: #800000;	
-*/	background-image: url("../images/tablecloth.jpg");
+/*background-color: #800000;	
+background-image: url("../images/tablecloth.jpg");
+*/
+background-image: url("../images/body-image.jpg");
 
 	
 }
@@ -65,7 +87,7 @@ h3 {
 }
 
 p {
-	color: white;
+	/*color: white;*/
 }
 
 
@@ -76,6 +98,6 @@ footer {
 }
 
 footer img {
-	width: 65px;
+	width: 125px;
 	padding: 30px;	
 }
