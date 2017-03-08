@@ -86,6 +86,16 @@ background-image: url("../images/body-image.jpg");
 
 }
 
+.card-columns img {
+	height: 150px;
+	width: 100px;
+	padding: 20px 0 0 0;	
+}
+
+.card:hover{
+	background-color: blue;
+}
+
 p {
 	/*color: white;*/
 }
