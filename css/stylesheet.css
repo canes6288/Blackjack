@@ -92,9 +92,9 @@ background-image: url("../images/body-image.jpg");
 	padding: 20px 0 0 0;	
 }
 
-.card:hover{
+/*.card:hover{
 	background-color: blue;
-}
+}*/
 
 p {
 	/*color: white;*/
