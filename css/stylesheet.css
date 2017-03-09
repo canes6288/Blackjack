@@ -59,6 +59,7 @@
 
 .jumbotron {
 	background-color: rgba(211, 211, 211, .9);
+  
 }
 
 
@@ -68,8 +69,8 @@ header {
   background-position: center;
 /*	background-color: #800000;
 */	border: 2px solid black;
-	/*padding: 0;
-	margin: 0 auto;*/
+	/*padding: px;*/
+	/*margin: 0;*/
 }
 
 body{
@@ -93,8 +94,8 @@ h3 {
 
 #nav-bar {
 /*background-color: #800000;	
-background-image: url("../images/tablecloth.jpg");
-*/
+*//*ackground-image: url("../images/tablecloth.jpg");*/
+height: 20px;
 background-image: url("../images/bannercloth.jpg");
 
 	
