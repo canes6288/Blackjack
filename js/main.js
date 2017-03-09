@@ -25,7 +25,7 @@ window.onload = function()	{
 var cash = 1000;
 var bet = 100;
 
-
+//Create arrays for card values and suites
 var faces = ['A','2','3','4','5','6','7','8','9','10','J','Q','K'];
 var suits = ['Diamonds','Clubs','Hearts','Spades'];
 
@@ -36,7 +36,7 @@ function card(name, face, suit, value) {
   this.value = value;
 }
 
-
+// create empty Deck array for shuffleDeck to push card values to
 var deck = [];
 
 function shuffleDeck() {
@@ -58,12 +58,13 @@ function shuffleDeck() {
 
 shuffleDeck();
 
+//Player's hand
 function hand() {
   this.player = 'none';
   this.cards = [];
   this.value = 0;
 }
-
+//new game function
 function startGame() {
   playerHand = new hand();
   computerHand = new hand();
