@@ -40,26 +40,32 @@
 	float: left;
 }*/
 
+/*.container {
+  display: inline-block;
+
+}
+*/
 #game-board {
 	height: 350px;
 	width: 650px;
 	background-image: url("../images/tablecloth.jpg");
 	border: 2px solid black;
 	/*display: flex;
-	align-items: flex-end;
-	justify-content: flex-start;*/	
+	justify-content: center;	*/
 	margin-top: 10px;
 	display: inline-block;	
 }
 
 
-.rules {
-	background-color: rgba(211, 211, 211, .5);
+.jumbotron {
+	background-color: rgba(211, 211, 211, .9);
 }
 
 
 header {
-	background-image: url("../images/bannercloth.jpg");
+	background-image: url("../images/bannerpaper.jpg");
+  background-repeat: repeat-x;
+  background-position: center;
 /*	background-color: #800000;
 */	border: 2px solid black;
 	/*padding: 0;
@@ -67,8 +73,17 @@ header {
 }
 
 body{
+  /*display: flex;
+  flex-direction: column;
+  align-content: : center;
+  justify-content: center;*/
 	text-align: center;
-	/*background-image: url("../images/body-image.jpg");*/
+	background-image: url("../images/saloon-bg.jpg");
+  background-size: 1500px;
+  background-position: center;
+  background-repeat: no-repeat
+
+
 }
 
 h3 {
@@ -80,7 +95,7 @@ h3 {
 /*background-color: #800000;	
 background-image: url("../images/tablecloth.jpg");
 */
-background-image: url("../images/body-image.jpg");
+background-image: url("../images/bannercloth.jpg");
 
 	
 }
@@ -154,9 +169,13 @@ background-image: url("../images/body-image.jpg");
 .result {
   text-align: center;
   font-size: 5rem;
-  color: black;
-  
+  color: white;
  
+}
+
+
+
+  
 }
 
 .hide {
@@ -170,6 +189,7 @@ background-image: url("../images/body-image.jpg");
   margin-bottom: 1rem;
   font-size: 2rem;
   font-weight: bold;
+  color: white;
 }
 
 #bet {
@@ -179,6 +199,7 @@ background-image: url("../images/body-image.jpg");
   margin-bottom: 1rem;
   font-size: 2rem;
   font-weight: bold;
+  color: white;
   
 }
 
@@ -224,11 +245,19 @@ background-image: url("../images/body-image.jpg");
 
 .player {
   text-decoration: underline;
+  color: white;
 
 }
 
 .computer {
   text-decoration: underline;
+  text-align: center;
+  color: white;
+}
+
+.computer-section {
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 
@@ -240,14 +269,17 @@ p {
 	/*color: white;*/
 }
 
+.footer a {
+  hover
+}
 
 
-
-footer {
+.footer {
 	clear: both;
+  color: white;
 }
 
-footer img {
-	width: 125px;
+/*.fa-github-square {
+	width: 200px;
 	padding: 30px;	
-}
+}*/

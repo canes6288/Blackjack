@@ -140,6 +140,8 @@ function addCards(addHand) {
   return total;
 }
 
+//generate cards
+
 function buildCard( buildPlayer, buildColor, buildFace, buildSuit, buildHand ) {
   var str = '<div class= "single-left ';
   str = str.concat(buildColor);
@@ -167,7 +169,6 @@ function hit(hitHand) {
   var temp = deck[num];
   hitHand.cards.push(temp);
   hitHand.value = addCards(hitHand);
-  playSound('hit');
   if( deck[num].suit === "Diamonds" ) {
     if( hitHand.player === 'player') {
       buildCard('player', 'red', deck[num].face, '&diams;', hitHand );
@@ -227,12 +228,10 @@ function win() {
   $('#game-board').append('<div class="result">You win $' + bet.toString() + '!</div');
   cash += bet;
   updateCashBet();
-  playSound('win');
 }
 
 function draw() {
   $('#game-board').append('<div class="result">You Draw!</div');
-  playSound('draw');
 }
 
 function lose() {
@@ -242,7 +241,6 @@ function lose() {
   if( cash < bet ) {
     bet = 100;
   }
-  playSound('lose');
 }
 
 function checkScore() {
@@ -336,23 +334,4 @@ $('#startover').click(function() {
 });
 
 
-function playSound( sound ) {
-  if( sound === 'win' ) {
-    var audio = new Audio('http://goo.gl/RvisKU');
-    audio.volume = .3;
-  }
-  if( sound === 'draw' ) {
-    var audio = new Audio('http://goo.gl/F4zXc9');
-    audio.volume = .3;
-  }
-  if( sound === 'lose' ) {
-    var audio = new Audio('http://goo.gl/cnh2hB');
-    audio.volume = .3;
-  }
-  if( sound === 'hit' ) {
-    var audio = new Audio('http://goo.gl/JuVzLs');
-    audio.volume = .05;
-  }
-  audio.play();
-}
-
+// 
