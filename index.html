@@ -1,8 +1,16 @@
 <!DOCTYPE html>
 	<html>
 		<head>
+
+			<script
+			  src="https://code.jquery.com/jquery-3.1.1.js"
+			  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+			  crossorigin="anonymous"></script>
+
 			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
 			<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+
 			<title>BLACKJACK</title>
 
 		</head>
@@ -17,20 +25,46 @@
 			
 			<div id="nav-bar">
 				<nav class="nav-bar">
-					<button class="btn btn-success">PLAY!</button>
+					<<!-- button class="btn btn-success">PLAY!</button> -->
 				</nav>
 			</div>
 
-			<div class="content">
+			<div class="container">
 
+				<div id='cash'>Cash: $1000</div>
+						  <div id='bet'>Bet: $100</div>
+
+						  <div class='changeBet clearfix'>
+						    <button id='subBet' class='btn btn-danger'>-</button>
+						    <button id='placeBet' class='btn btn-warning'>Place Bet</button>
+						    <button id='addBet' class='btn btn-success'>+</button>
+						  </div>
+
+						  <div class='hide buttons clearfix'>
+						    <button id='playHit' class='btn btn-success'>Hit</button>
+						    <button id='playStay' class='btn btn-success'>Stay</button>
+						  </div>
+
+						  <div class='fullbar clearfix'>
+						    <button id='reset' class='hide button'>Next Round</button>
+						    <button id='startover' class='hide button'>Start Over</button>
+						  </div>
+
+						  <div class='title clearfix'>
+						    <div class='player'>Player</div>
+						    <div class='computer'>Computer</div>
+						  </div>
+
+						  <div id='game-board' class='clearfix'>
+						    <div class='player-section card-section'></div><div class='computer-section card-section'></div>
+						  </div>
 				
-				
 
 
 
-				<div class="game-board">
-					<div class="player-section"></div>
-					<div class="dealer-section"></div>
+				<!-- <div id="game-board">
+					<div class="player-section card-area"></div>
+					<div class="dealer-section card-area"></div>
 					
 				
 				</div>
@@ -40,7 +74,7 @@
 					<button class="btn btn-success">Hit</button>
 					<button class="btn btn-success">Stand</button>
 					<button class="btn btn btn-success">Bet</button>
-				</div>	
+				</div>	 -->
 
 				
 				<div class="jumbotron">	
@@ -65,7 +99,7 @@
 
 			</div>
 
-
+			<script type="text/javascript" src="js/main.js"></script>
 				
 		</body>
 

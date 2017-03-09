@@ -1,3 +1,18 @@
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+
 .nav-bar li{
 	display: inline;
 	padding: 40px;
@@ -25,8 +40,8 @@
 	float: left;
 }
 
-.game-board {
-	height: 650px;
+#game-board {
+	height: 300px;
 	width: 650px;
 	background-image: url("../images/tablecloth.jpg");
 	border: 2px solid black;
@@ -91,6 +106,122 @@ background-image: url("../images/body-image.jpg");
 	width: 100px;
 	padding: 20px 0 0 0;	
 }
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+.btn  {
+  width: 20%;
+  height: 55px;
+}
+
+
+.computer-value {
+  text-align: right;
+  font-size: 2.5rem;
+  color: white;
+  
+}
+
+.player-value {
+  text-align: left;
+  font-size: 2.5rem;
+  color: white;
+
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: .5rem;
+}
+
+.title div {
+  float: left;
+  width: 50%;
+}
+
+.result {
+  text-align: center;
+  font-size: 5rem;
+  color: white;
+}
+
+.hide {
+  display: none;
+}
+
+#cash {
+  float: left;
+  text-align: center;
+  width: 50%;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#bet {
+  float: left;
+  text-align: center;
+  width: 50%;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+  tex
+}
+
+.card-section {
+  display: block;
+  float: left;
+  width: 50%;
+  height: 10rem;
+}
+
+.single-left {
+  background: #f7f7f7;
+  color: #373737;
+  float: left;
+  width: 6.5rem;
+  height: 10rem;
+  border: 2px solid #373737;
+  border-radius: .5rem;
+  margin-left: -4.5rem;
+  padding: .35rem;
+
+}
+
+.facevalue {
+  font-size: 1.35rem;
+  margin-left: -4.5rem;
+}
+
+.facetype {
+  font-size: 1.35rem;
+  margin-left: -4.5rem;
+}
+
+
+.red {
+  color: #e75757;
+}
+
+.first {
+  margin-left: 0;
+  margin-left: 0;
+}
+
+.player {
+  text-decoration: underline;
+
+}
+
+.computer {
+  text-decoration: underline;
+}
+
 
 /*.card:hover{
 	background-color: blue;
