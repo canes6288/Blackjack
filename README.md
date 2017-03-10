@@ -8,6 +8,8 @@ When players enter the site, they are first greeted by a jumbotron displaying th
 
 **Live site:** <http://blackjack-wdi-9.bitballoon.com/>
 
+<https://ddmilo.github.io/Blackjack/>
+
 ## Technologies Used
 * HTML5
 * CSS3
