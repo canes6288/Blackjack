@@ -6,7 +6,7 @@ For project one, I created web based game of Blackjack.
 
 When players enter the site, they are first greeted by a jumbotron displaying the rules of the game. Players are trying to beat the dealer by having the highest count as close to 21 as possible without going over. 
 
-**Live site:** 
+**Live site:** <http://blackjack-wdi-9.bitballoon.com/>
 
 ## Technologies Used
 * HTML5
@@ -16,6 +16,7 @@ When players enter the site, they are first greeted by a jumbotron displaying th
 * Jquery
 * various CodePen references
 * Sublime Text 3
+* [Trello](https://trello.com/b/b1t2DWvK/blackjack)
 
 ## Features
 * Score(Cash) feature
