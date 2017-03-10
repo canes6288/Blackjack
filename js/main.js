@@ -107,7 +107,7 @@ function showValue() {
 function showCompValue() {
   $('#game-board').append('<div class="computer-value">' + computerHand.value.toString() + '</div');
   if(computerHand.value > 21){
-    $('#game-board').append('<div class="computer-value">Computer Bust!</div');
+    $('#game-board').append('<div class="computer-value">Dealer Bust!</div');
   }
 }
 
