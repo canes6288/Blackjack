@@ -9,20 +9,20 @@ When players enter the site, they are first greeted by a jumbotron displaying th
 **Live site:** 
 
 ## Technologies Used
-HTML5
-CSS3
-BootStrap
-FontAwesome
-Jquery
-various CodePen references
-Sublime Text 3
+* HTML5
+* CSS3
+* BootStrap
+* FontAwesome
+* Jquery
+* various CodePen references
+* Sublime Text 3
 
 ## Features
-Score(Cash) feature
-Betting feature
-Hit/Stay buttons
-Next round button
-Reset board button
+* Score(Cash) feature
+* Betting feature
+* Hit/Stay buttons
+* Next round button
+* Reset board button
 
 
 ## Wireframe
