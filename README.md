@@ -26,5 +26,5 @@ Reset board button
 
 
 ## Wireframe
-
+ ![Wireframe] (https://github.com/ddmilo/Blackjack/blob/master/images/blackjack-wirefram.jpg)
 
