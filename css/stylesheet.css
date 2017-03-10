@@ -7,10 +7,10 @@
      height: 0;
      }
 .clearfix { display: inline-block; }
-/* start commented backslash hack \*/
+
 * html .clearfix { height: 1%; }
 .clearfix { display: block; }
-/* close commented backslash hack */
+
 
 
 .nav-bar li{
@@ -36,22 +36,12 @@
 
 }
 
-/*.leftSide {
-	float: left;
-}*/
 
-/*.container {
-  display: inline-block;
-
-}
-*/
 #game-board {
 	height: 350px;
 	width: 650px;
 	background-image: url("../images/tablecloth.jpg");
-	border: 2px solid black;
-	/*display: flex;
-	justify-content: center;	*/
+	border: 2px solid black;	
 	margin-top: 10px;
 	display: inline-block;	
 }
@@ -59,7 +49,7 @@
 
 .jumbotron {
 	background-color: rgba(211, 211, 211, .9);
-  
+
 }
 
 
@@ -67,17 +57,11 @@ header {
 	background-image: url("../images/bannerpaper.jpg");
   background-repeat: repeat-x;
   background-position: center;
-/*	background-color: #800000;
-*/	border: 2px solid black;
-	/*padding: px;*/
-	/*margin: 0;*/
+  border: 2px solid black;
+
 }
 
-body{
-  /*display: flex;
-  flex-direction: column;
-  align-content: : center;
-  justify-content: center;*/
+body{  
 	text-align: center;
 	background-image: url("../images/saloon-bg.jpg");
   background-size: 1500px;
@@ -89,12 +73,9 @@ body{
 
 h3 {
 	text-decoration: underline;
-	/*color: white;*/
 }
 
 #nav-bar {
-/*background-color: #800000;	
-*//*ackground-image: url("../images/tablecloth.jpg");*/
 height: 20px;
 background-image: url("../images/bannercloth.jpg");
 
@@ -104,26 +85,7 @@ background-image: url("../images/bannercloth.jpg");
 .main-banner img{
 	width: 500px;
 	padding-top: 10px;
-	/*position: 0 0 5 0;*/
-
 }
-
-/*#blackjack-cards {	
-	border: 2px solid black;
-	float: left;
-	width: 400px;
-	/*padding-left: 70px;
-	
-
-}*/
-
-/*.card-columns img {
-	height: 150px;
-	width: 100px;
-	padding: 20px 0 0 0;	
-}*/
-
-
 
 * {
   box-sizing: border-box;
@@ -137,24 +99,15 @@ background-image: url("../images/bannercloth.jpg");
 
 
 .computer-value {
-  text-align: right;
   font-size: 2.5rem;
   color: white;
-  /*display: flex;
-  flex-direction: column;
-  align-content: center;*/
-  
+  display: flex;  
 }
 
 .player-value {
   text-align: left;
   font-size: 2.5rem;
   color: white;
-  /*display: flex;
-  flex-direction: column;
-  justify-content: flex-end;*/
-
-
 }
 
 .title {
@@ -172,11 +125,6 @@ background-image: url("../images/bannercloth.jpg");
   font-size: 5rem;
   color: white;
  
-}
-
-
-
-  
 }
 
 .hide {
@@ -262,10 +210,6 @@ background-image: url("../images/bannercloth.jpg");
 }
 
 
-/*.card:hover{
-	background-color: blue;
-}*/
-
 p {
 	/*color: white;*/
 }
@@ -279,8 +223,3 @@ p {
 	clear: both;
   color: white;
 }
-
-/*.fa-github-square {
-	width: 200px;
-	padding: 30px;	
-}*/
